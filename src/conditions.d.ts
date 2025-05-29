@@ -1,6 +1,6 @@
 import { EventInstance, EventLike, ExtractEvents } from "./utils";
 
-export type Condition<T extends unknown[] = unknown[]> = (...args: T) => boolean;
+export type Condition<T extends readonly unknown[] = unknown[]> = (...args: T) => boolean;
 
 export const timePassed: (time: number) => Condition;
 
