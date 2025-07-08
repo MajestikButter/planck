@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "@rbxts/planck": "^0.2.0-rc.1",
-    "@rbxts/jabby": "^0.2.0-rc.8"
+    "@rbxts/jabby": "^0.3.0"
   }
 }
